@@ -23,7 +23,6 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO {
 
 
     @Override
-
     public List<Employee> findAll() {
 
         // get the current hibernate session

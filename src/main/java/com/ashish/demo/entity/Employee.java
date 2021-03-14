@@ -3,7 +3,7 @@ package com.ashish.demo.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "employee")
+@Table(name ="employee")
 public class Employee {
 
     // define fields
@@ -26,7 +26,7 @@ public class Employee {
 
 
     // define constructors
-    public Employee() {
+    public Employee() { // this is for hibernate to create the object
     }
 
     public Employee(String firstname, String lastName, int age, String email) {
